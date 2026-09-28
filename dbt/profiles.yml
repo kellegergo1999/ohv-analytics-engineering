@@ -1,0 +1,12 @@
+ohv:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      port: 5432
+      user: ohv
+      password: ohv
+      dbname: ohv
+      schema: analytics
+      threads: 4

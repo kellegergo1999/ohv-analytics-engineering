@@ -1,0 +1,28 @@
+[0m10:43:27.205835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001868DE02BA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001868B7E9090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186907B3890>]}
+
+
+============================== 10:43:27.215829 | 52a180ac-e96a-48fe-b366-b03a3ccf8d40 ==============================
+[0m10:43:27.215829 [info ] [MainThread]: Running with dbt=1.12.5
+[0m10:43:27.216579 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gkelle\\.dbt', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt init ohv --skip-profile-setup', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m10:43:27.305743 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\gkelle\.dbt
+[0m10:43:27.309367 [debug] [MainThread]: Starter project path: C:\Projects\ohv-analytics-engineering\.venv\Lib\site-packages\dbt\include\starter_project
+[0m10:43:27.319631 [info ] [MainThread]: Your new dbt project "ohv" was created!
+Initialized new project in C:\Projects\ohv-analytics-engineering\ohv\ohv
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:43:27.321089 [debug] [MainThread]: Command `dbt init` succeeded at 10:43:27.320763 after 0.34 seconds
+[0m10:43:27.321742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186905E3490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000186905EB530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018690808D10>]}
+[0m10:43:27.322204 [debug] [MainThread]: Flushing usage events
+[0m10:43:27.959259 [debug] [MainThread]: An error was encountered while trying to flush usage events

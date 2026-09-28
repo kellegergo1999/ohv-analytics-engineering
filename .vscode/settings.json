@@ -1,0 +1,5 @@
+{
+  "dbt.profilesDir": "${workspaceFolder}/dbt",
+  "dbt.projectRoot": "${workspaceFolder}/dbt",
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+}
